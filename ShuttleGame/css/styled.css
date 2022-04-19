@@ -1,0 +1,34 @@
+
+#buttonwindow {
+	text-align:center;
+	width:300px;
+	position:absolute;
+	left:60%;
+	top:10%;
+
+}
+
+#restartbutton {
+	font-size: 40px;
+	position:absolute;
+	top:70%;
+	left:50%;
+}
+
+.gameover {
+	
+    width:100%;
+    height:auto;
+    
+    
+}
+
+#score {
+	position: absolute;
+	top:35%;
+	left:40%;
+	background-color: grey;
+	border:2px blue solid;
+	border-radius: 5px;
+	font-size: 18px;
+}

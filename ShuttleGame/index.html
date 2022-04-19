@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Escape Black Holes</title>
+        <link rel='stylesheet' href="css/normalize.css">
+        <link rel='stylesheet' href="css/style.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ </head>
+<body onload="startGame()">
+<div id="buttonwindow">
+  <div id="thrust">
+  <button onmousedown="moveup()" ontouchstart="moveup()">THRUST</button></div>
+  <div id ="leftright">
+  <button onmousedown="moveleft()"  ontouchstart="moveleft()">SPIN LEFT</button>
+  <button onmousedown="moveright()"  ontouchstart="moveright()">SPIN RIGHT</button></div>
+  <button onmousedown="movedown()"  ontouchstart="movedown()">BREAK</button><br />
+  <button onmousedown="restart()"  ontouchstart="restart()">RESTART</button>
+    <div id ="status">
+      <div id="lives">Lives: 3</div>
+      <div id="score">Score: 0</div>
+      Fuel: <meter id="fuel" value="100" min="0" max="100">
+      
+    </div>
+</div>
+
+<div id="instructions">Use buttons,wsad, or arrow keys to avoid blackholes.</div>
+<script src="main.js"></script>
+</body>
+</html>
